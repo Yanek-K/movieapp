@@ -1,9 +1,14 @@
 <template>
-  <Tutorial />
+  <div class="home">
+    <HeroSection />
+  </div>
 </template>
 
 <script>
+import HeroSection from '../components/HeroSection.vue'
+
 export default {
   name: 'IndexPage',
+  components: { HeroSection },
 }
 </script>
